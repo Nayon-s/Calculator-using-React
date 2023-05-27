@@ -1,7 +1,12 @@
 .App {
   text-align: center;
 }
+*{
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  background-color: azure;
+  font-family: 'Josefin Sans', sans-serif;
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +40,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+.design-btn{
+  color: aliceblue;
+  height: 75px;
+  width: 80px;
+  background-color: #282c34;
+  font-weight: bold;
+  font-size: larger;
+}
+input{
+  height: 89px;
+  width: 320px;
+  font-size:xx-large;
+  text-align: right;
+}
+button:hover{
+  background-color: blueviolet;
 }
